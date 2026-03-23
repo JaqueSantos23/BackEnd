@@ -210,11 +210,12 @@
  <form method="post" action="enviarsac.php">
     <div class="card">
         <h2>Abrir Novo Ticket</h2>
-        <input type="text" id="nome" placeholder="Seu Nome" name="nome">
-        <input type="email" id="email" placeholder="Seu Email" name="email">
-        <input type="text" id="assunto" placeholder="Assunto" name="assunto">
-        <textarea id="mensagem" rows="4" placeholder="Descreva sua solicitação..." name="mansagem"></textarea>
+     Nome   <input type="text" id="nome" placeholder="Seu Nome" name="nome">
+     Email   <input type="email" id="email" placeholder="Seu Email" name="email">
+     Assunto  <input type="text" id="assunto" placeholder="Assunto" name="assunto">
+     Mensagem   <textarea id="mensagem" rows="4" placeholder="Descreva sua solicitação..." name="mensagem"></textarea>
         <button id="enviar-ticket" class="btn-enviar">Enviar Ticket</button>
+</form>
     </div>
 
     <div class="card">

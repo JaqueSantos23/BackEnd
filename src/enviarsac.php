@@ -3,10 +3,10 @@
 
 echo "<pre>"; print_r($_POST); echo "</pre>";
 
-$Nome=$_POST["nome"];
-$Email=$_POST["email"];
-$Assunto=$_POST["assunto"];
-$Mensagem=$_POST["mensagem"];
+$nome=$_POST["nome"];
+$email=$_POST["email"];
+$assunto=$_POST["assunto"];
+$mensagem=$_POST["mensagem"];
 
 echo "Nome: <b>$nome</b><br>";
 echo "Email: <b>$email</b><br>";
